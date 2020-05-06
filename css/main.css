@@ -5,7 +5,6 @@ html {
 }
 
 
-
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -184,16 +183,20 @@ textarea {
     box-shadow: none !important;
     text-shadow: none !important;
   }
+
   a,
   a:visited {
     text-decoration: underline;
   }
+
   a[href]:after {
     content: " (" attr(href) ")";
   }
+
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
+
   /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
@@ -202,14 +205,17 @@ textarea {
   a[href^="javascript:"]:after {
     content: "";
   }
+
   pre {
     white-space: pre-wrap !important;
   }
+
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
+
   /*
      * Printing Tables:
      * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
@@ -217,27 +223,30 @@ textarea {
   thead {
     display: table-header-group;
   }
+
   tr,
   img {
     page-break-inside: avoid;
   }
+
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3;
   }
+
   h2,
   h3 {
     page-break-after: avoid;
   }
 }
 
-.header-bar{
+.header-bar {
   position: absolute;
   width: 4256px;
   height: 226px;
-  left: calc(50% - 4256px/2 - 0.5px);
+  left: calc(50% - 4256px / 2 - 0.5px);
   top: -91px;
 }
 
@@ -250,7 +259,7 @@ textarea {
   background: #00DC00;
 }
 
-.logo{
+.logo {
   position: absolute;
   width: 95px;
   height: 95px;
@@ -258,12 +267,12 @@ textarea {
   top: 4px;
 }
 
-body{
+body {
   background-color: #F6F6F6;
-  height: 3000px;
+  height: 2966px;
 }
 
-.navigation{
+.navigation {
   display: flex;
   flex-direction: row;
   padding: 0px;
@@ -280,7 +289,7 @@ body{
   src: url(../css/Dimbo.ttf);
 }
 
-.nav-item{
+.nav-item {
   position: static;
   height: 30px;
   top: 0;
@@ -299,27 +308,27 @@ body{
   align-self: center;
 }
 
-.nav-1{
+.nav-1 {
   width: 149px;
   left: 0px;
   order: 0;
   margin-right: 60px;
 }
 
-.nav-2{
+.nav-2 {
   width: 70px;
   left: 209px;
   order: 1;
   margin-right: 60px;
 }
 
-.nav-3{
+.nav-3 {
   width: 45px;
   left: 339px;
   order: 2;
 }
 
-.language-box-russian{
+.language-box-russian {
   position: absolute;
   width: 74px;
   height: 36px;
@@ -327,7 +336,7 @@ body{
   top: 19px;
 }
 
-.login-user{
+.login-user {
   position: absolute;
   width: 95px;
   height: 35px;
@@ -335,46 +344,54 @@ body{
   top: 20px;
 }
 
-.bus-photo{
+.bus-photo {
   position: absolute;
   width: 1037px;
   height: 422px;
-  left: calc(50% - 1037px/2 - 4px);
+  left: calc(50% - 1037px / 2 - 4px);
   top: 155px;
 
   background: url(../img/Bus.png);
 }
 
-.slogans{
+.slogans {
   position: absolute;
   width: 1065px;
   height: 509px;
-  left: calc(50% - 1065px/2 + 1px);
+  left: calc(50% - 1065px / 2 + 1px);
   top: 129px;
 }
 
-.search-bar{
+.search-bar {
   position: absolute;
   /*width: 927px;
   /*height: 74px;*/
-  left: calc(50% - 927px/2 - 24px);
+  left: calc(50% - 927px / 2 - 24px);
   top: 351px;
 }
 
-.search-button{
+.search-button {
   position: absolute;
   width: 190px;
   height: 54px;
-  left: calc(50% - 189.5px/2 + 354px);
+  left: calc(50% - 189.5px / 2 + 354px);
   top: 357.26px;
 }
 
-.ell-1{
+.ell-1 {
   position: absolute;
   width: 100%;
   height: 298px;
   /*left: calc(50% - 1935px/2 + 1px);*/
   top: 412px;
+}
+
+.ell-2{
+  position: absolute;
+  width: 100%;
+  height: 242px;
+  /*left: calc(50% - 1831px/2 + 1827px);*/
+  top: 2213px;
 }
 
 .back-1 {
@@ -383,11 +400,19 @@ body{
   height: 658px;
   right: 0;
   top: 468px;
-
   background: #E8E8E8;
 }
 
-.city{
+.back-2 {
+  position: absolute;
+  width: 110%;
+  height: 996px;
+  right: 0;
+  top: 1406px;
+  background: #E8E8E8;
+}
+
+.city {
   position: absolute;
   top: 371px;
   height: 24px;
@@ -405,21 +430,21 @@ body{
   outline: none;
 }
 
-.city-1{
+.city-1 {
   width: 125px;
-  left: calc(50% - 125px/2 - 395px);
+  left: calc(50% - 125px / 2 - 395px);
 }
 
-.city-2{
+.city-2 {
   width: 142px;
-  left: calc(50% - 82px/2 - 233px);
+  left: calc(50% - 82px / 2 - 233px);
 }
 
-.calendar{
+.calendar {
   position: absolute;
   width: 165px;
   height: 20px;
-  left: calc(50% - 115px/2 - 33px);
+  left: calc(50% - 115px / 2 - 33px);
   top: 375px;
 
   font-family: Roboto, sans-serif;
@@ -433,3 +458,120 @@ body{
   outline: none;
   color: #000000;
 }
+
+.rectangles {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+
+  position: absolute;
+  width: 1011px;
+  height: 293px;
+  left: calc(50% - 1011px / 2);
+  top: 678px;
+}
+
+.rect {
+  position: static;
+  width: 225px;
+  height: 286px;
+  top: 3.5px;
+
+  background: #F7F7F7;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  flex: none;
+
+  align-self: center;
+  margin-right: 37px;
+}
+
+.rect-1 {
+  position: absolute;
+  left: 5.84%;
+  right: 85.26%;
+  top: 15.12%;
+  bottom: 55.39%;
+}
+
+.rect-2 {
+  position: absolute;
+  left: 32.54%;
+  right: 58.56%;
+  top: 14.51%;
+  bottom: 55.8%;
+}
+
+.rect-3 {
+  position: absolute;
+  width: 90px;
+  height: 60px;
+  left: 590px;
+  top: 58.5px;
+}
+
+.rect-4 {
+  position: absolute;
+  width: 90px;
+  height: 79.5px;
+  left: 853px;
+  top: 43.75px;
+}
+
+.head {
+  position: relative;
+  /*width: 196px;
+  height: 23px;
+  left: 14px;*/
+  text-align: center;
+  top: 145px;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #343434;
+}
+
+.text{
+  position: absolute;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #5B5B5B;
+}
+.text1 {
+  width: 187px;
+  height: 45px;
+  left: 19px;
+  top: 198.5px;
+}
+
+.text2 {
+  width: 179px;
+  height: 80px;
+  left: 285px;
+  top: 188.5px;
+}
+
+.text3 {
+  width: 182px;
+  height: 80px;
+  left: 546px;
+  top: 180.5px;
+}
+
+.text4 {
+  width: 160px;
+  height: 80px;
+  left: 818px;
+  top: 182.5px;
+}
+
+
