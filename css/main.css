@@ -282,12 +282,10 @@ body{
 
 .nav-item{
   position: static;
-
   height: 30px;
+  top: 0;
 
-  top: 0px;
-
-  font-family: Dimbo;
+  font-family: Dimbo, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
@@ -387,4 +385,51 @@ body{
   top: 468px;
 
   background: #E8E8E8;
+}
+
+.city{
+  position: absolute;
+  top: 371px;
+  height: 24px;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+
+  border: 0;
+  background-color: transparent;
+  outline: none;
+}
+
+.city-1{
+  width: 125px;
+  left: calc(50% - 125px/2 - 395px);
+}
+
+.city-2{
+  width: 142px;
+  left: calc(50% - 82px/2 - 233px);
+}
+
+.calendar{
+  position: absolute;
+  width: 165px;
+  height: 20px;
+  left: calc(50% - 115px/2 - 33px);
+  top: 375px;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  color: #000000;
 }
