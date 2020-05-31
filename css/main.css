@@ -442,10 +442,57 @@ body {
 
 .calendar {
   position: absolute;
-  width: 125px;
+  width: 150px;
   height: 20px;
   left: calc(50% - 115px / 2 - 33px);
+  top: 377px;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  color: #000000;
+}
+
+.people{
+  position: absolute;
+  width: 10px;
+  height: 20px;
+  left: calc(50% - 115px / 2 + 153px);
   top: 375px;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  color: #000000;
+
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.chel{
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  left: calc(50% - 115px / 2 + 175px);
+  top: 358px;
 
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -653,4 +700,10 @@ body {
   letter-spacing: 0.05em;
 
   color: #282828;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+  ::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
 }
