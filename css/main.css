@@ -442,7 +442,7 @@ body {
 
 .calendar {
   position: absolute;
-  width: 165px;
+  width: 125px;
   height: 20px;
   left: calc(50% - 115px / 2 - 33px);
   top: 375px;
@@ -574,4 +574,83 @@ body {
   top: 182.5px;
 }
 
+.europe{
+  position: absolute;
+  width: 303px;
+  height: 371px;
+  left: calc(50% - 303px/2 - 313px);
+  top: 1077px;
+}
 
+.europe-header{
+  position: absolute;
+  /*width: 500px;*/
+  height: 36px;
+  left: calc(50% - 460px/2 + 95.5px);
+  top: 1150px;
+
+  font-family: Dimbo, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #282828;
+}
+
+.eu-p{
+  position: absolute;
+  width: 456px;
+  height: 162px;
+  left: calc(50% - 456px/2 + 96.5px);
+  top: 1200px;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 28px;
+  /* or 127% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3E3E3E;
+}
+
+.routes{
+  position: absolute;
+  width: 786px;
+  height: 452.19px;
+  left: calc(50% - 786px/2 + 18.5px);
+  top: 1543px;
+}
+
+.rou-h{
+  position: absolute;
+  /*width: 424px;*/
+  height: 36px;
+  left: calc(50% - 424px/2);
+  top: 7px;
+
+  font-family: Dimbo, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #282828;
+}
