@@ -677,7 +677,7 @@ input::-webkit-inner-spin-button {
   width: 786px;
   height: 452.19px;
   left: calc(50% - 786px/2 + 18.5px);
-  top: 1543px;
+  top: 1522px;
 }
 
 .rou-h{
@@ -685,7 +685,6 @@ input::-webkit-inner-spin-button {
   /*width: 424px;*/
   height: 36px;
   left: calc(50% - 424px/2);
-  top: 7px;
 
   font-family: Dimbo, sans-serif;
   font-style: normal;
@@ -706,4 +705,155 @@ input::-webkit-inner-spin-button {
   ::-webkit-calendar-picker-indicator {
     opacity: 0;
   }
+}
+
+.paris {
+  position: absolute;
+  width: 248.07px;
+  height: 366.19px;
+  left: calc(50% - 248.07px/2 - 250.47px);
+  top: 1629px;
+  border-radius: 10px;
+}
+
+.copen {
+  position: absolute;
+  width: 248.07px;
+  height: 172.65px;
+  left: calc(50% - 248.07px/2 + 18.5px);
+  top: 1629px;
+  border-radius: 10px;
+}
+
+.lviv {
+  position: absolute;
+  width: 248.07px;
+  height: 172.65px;
+  left: calc(50% - 248.07px/2 + 287.47px);
+  top: 1629px;
+  border-radius: 10px;
+}
+
+.barca {
+  position: absolute;
+  width: 248.07px;
+  height: 172.65px;
+  left: calc(50% - 248.07px/2 + 18.5px);
+  top: 1822.55px;
+
+  border-radius: 10px;
+}
+
+.brus {
+  position: absolute;
+  width: 248.07px;
+  height: 172.65px;
+  left: calc(50% - 248.07px/2 + 287.47px);
+  top: 1822.55px;
+
+  border-radius: 10px;
+}
+
+.green-button {
+  position: absolute;
+  width: 183px;
+  height: 45px;
+
+  background: rgba(0, 220, 0, 0.9);
+  border-radius: 23px;
+  font-family: Dimbo, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  outline: none;
+  border: solid 0;
+  color: #FFFFFF;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.par {
+  left: calc(50% - 183.45px/2 - 250.77px);
+  top: 1790px;
+}
+
+.cop {
+  left: calc(50% - 183.45px/2 + 18.23px);
+  top: 1693px;
+}
+
+.lvi {
+  left: calc(50% - 183.45px/2 + 287.23px);
+  top: 1693px;
+}
+
+.bar {
+  left: calc(50% - 183.45px/2 + 18.23px);
+  top: 1886px;
+}
+
+.bru {
+  left: calc(50% - 183.45px/2 + 287.23px);
+  top: 1886px;
+}
+
+.brus:hover ~ .bru, .bru:hover,
+.paris:hover ~ .par, .par:hover,
+.lviv:hover ~ .lvi, .lvi:hover,
+.copen:hover ~ .cop, .cop:hover,
+.barca:hover ~ .bar, .bar:hover
+{
+  transition: 0.2s;
+  transform: scale(1.05);
+  background: rgba(0, 220, 0, 1);
+}
+
+.sub {
+  position: absolute;
+  width: 610px;
+  height: 388px;
+  left: calc(50% - 610px/2 - 16.5px);
+  top: 2115px;
+
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+.email {
+  position: absolute;
+  width: 323px;
+  height: 48px;
+  left: calc(50% - 323px/2 - 17px);
+  top: 2362px;
+  background: #EEEEEE;
+  border-radius: 7px;
+  border: solid 0;
+  outline: none;
+
+  font-family: Dimbo, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #343434;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.email::placeholder {
+  color: #9E9E9E;
+}
+
+.sub-but {
+  left: calc(50% - 189px/2 - 17px);
+  top: 2429px;
+  width: 189px;
+  height: 52px;
+  border-radius: 26px;
 }
