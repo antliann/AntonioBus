@@ -242,6 +242,11 @@ textarea {
   }
 }
 
+body {
+  background-color: #F6F6F6;
+  height: 2966px;
+}
+
 .header-bar {
   position: absolute;
   width: 4256px;
@@ -259,17 +264,27 @@ textarea {
   background: #00DC00;
 }
 
+.footer-rectangle {
+  position: absolute;
+  width: 110%;
+  height: 95px;
+  right: 0;
+  top: 2870px;
+  background: #00DC00;
+}
+
+.foot {
+  position: absolute;
+  left: calc(50% - 1964px/2 + 221px);
+  top: 2851px;
+}
+
 .logo {
   position: absolute;
   width: 95px;
   height: 95px;
   left: 116px;
   top: 4px;
-}
-
-body {
-  background-color: #F6F6F6;
-  height: 2966px;
 }
 
 .navigation {
@@ -856,4 +871,43 @@ input::-webkit-inner-spin-button {
   width: 189px;
   height: 52px;
   border-radius: 26px;
+}
+
+.sub-but:hover {
+  transition: 0.3s;
+  transform: scale(1.03);
+}
+
+.footer-h {
+  position: absolute;
+  top: 2594px;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+
+  color: #000000;
+}
+
+.list {
+  margin-top: 7px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 33px;
+
+  color: #343434;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
 }
