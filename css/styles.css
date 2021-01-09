@@ -24,7 +24,7 @@ body {
 .header-rectangle {
   position: absolute;
   width: 110%;
-  height: 88px;
+  height: 90px;
   right: 0;
   top: -15px;
   background: #00DC00;
@@ -33,9 +33,9 @@ body {
 .footer-rectangle {
   position: absolute;
   width: 110%;
-  height: 100px;
+  height: 105px;
   right: 0;
-  top: 2865px;
+  top: 2860px;
   background: #00DC00;
 }
 
@@ -104,6 +104,7 @@ body {
   order: 2;
 }
 
+/*
 .language-box-russian {
   position: absolute;
   width: 74px;
@@ -111,6 +112,7 @@ body {
   right: 359px;
   top: 19px;
 }
+*/
 
 .login-user {
   position: absolute;

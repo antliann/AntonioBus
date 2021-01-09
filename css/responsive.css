@@ -1,0 +1,44 @@
+/*
+
+1215 +++
+
+834  -  1214
+
+0  -  833
+
+ */
+
+
+@media screen and (min-width: 834px) and (max-width: 1214px) {
+
+  .logo {
+    left: 19px;
+  }
+
+  .navigation {
+    width: 416px;
+    height: 31px;
+    left: 152px;
+  }
+
+  .login-user {
+    right: 33px;
+  }
+
+  .bus-photo {
+    width: 834px;
+    height: 339px;
+    left: calc(50% - 834px/2 + 4px);
+    top: 175px;
+    background-size: contain;
+  }
+
+  .slogans2{
+    position: absolute;
+    width: 670px;
+    height: 450px;
+    left: calc(50% - 670px/2 + 9px);
+    top: 131px;
+  }
+}
+
