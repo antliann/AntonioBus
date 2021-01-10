@@ -81,22 +81,22 @@
   .bus-photo {
     width: 834px;
     height: 339px;
-    left: calc(50% - 834px/2 + 4px);
+    left: calc(50% - 834px / 2 + 4px);
     top: 175px;
     background-size: contain;
   }
 
-  .slogans2{
+  .slogans2 {
     position: absolute;
     width: 670px;
     height: 450px;
-    left: calc(50% - 670px/2 + 9px);
+    left: calc(50% - 670px / 2 + 9px);
     top: 131px;
   }
 
   .search-bar2 {
     position: absolute;
-    left: calc(50% - 703px/2 - 20.5px);
+    left: calc(50% - 703px / 2 - 20.5px);
     top: 262px;
   }
 
@@ -108,7 +108,7 @@
     position: absolute;
     width: 232px;
     height: 72px;
-    left: calc(50% - 232px/2 + 225px);
+    left: calc(50% - 232px / 2 + 225px);
     top: 339px;
   }
 
@@ -121,18 +121,18 @@
 
   .city-1 {
     width: 256px;
-    left: calc(50% - 83px/2 - 294px);
+    left: calc(50% - 83px / 2 - 294px);
   }
 
   .city-2 {
     width: 278px;
-    left: calc(50% - 99px/2 + 77px);
+    left: calc(50% - 99px / 2 + 77px);
   }
 
   .calendar {
     width: 190px;
     height: 20px;
-    left: calc(50% - 83px/2 - 294px);
+    left: calc(50% - 83px / 2 - 294px);
     top: 367px;
 
     font-size: 22px;
@@ -142,7 +142,7 @@
   .people {
     width: 12px;
     height: 20px;
-    left: calc(50% - 83px/2 - 62px);
+    left: calc(50% - 83px / 2 - 62px);
     top: 367px;
 
     font-size: 22px;
@@ -151,7 +151,7 @@
 
   .chel {
     height: 20px;
-    left: calc(50% - 83px/2 - 38px);
+    left: calc(50% - 83px / 2 - 38px);
     top: 345px;
 
     font-size: 22px;
@@ -164,7 +164,7 @@
 
     width: 752px;
     height: 541px;
-    left: calc(50% - 752px/2 + 4px);
+    left: calc(50% - 752px / 2 + 4px);
     top: 631px;
   }
 
@@ -242,19 +242,19 @@
   }
 
   .europe {
-    left: calc(50% - 303px/2 - 238.5px);
+    left: calc(50% - 303px / 2 - 238.5px);
     top: 1235px;
   }
 
   .europe-header {
     width: 460px;
     height: 36px;
-    left: calc(50% - 460px/2 + 137px);
+    left: calc(50% - 460px / 2 + 137px);
     top: 1311px;
   }
 
   .eu-p {
-    left: calc(50% - 456px/2 + 139px);
+    left: calc(50% - 456px / 2 + 139px);
     top: 1357px;
   }
 
@@ -265,7 +265,7 @@
   .paris {
     width: 222.73px;
     height: 328.79px;
-    left: calc(50% - 222.73px/2 - 241.64px);
+    left: calc(50% - 222.73px / 2 - 241.64px);
     top: 1777.21px;
   }
 
@@ -275,28 +275,28 @@
   }
 
   .copen {
-    left: calc(50% - 222.73px/2 - 0.15px);
+    left: calc(50% - 222.73px / 2 - 0.15px);
     top: 1777.21px;
   }
 
   .lviv {
     width: 222.73px;
     height: 155.01px;
-    left: calc(50% - 222.73px/2 + 241.34px);
+    left: calc(50% - 222.73px / 2 + 241.34px);
     top: 1777.21px;
   }
 
   .barca {
     width: 222.73px;
     height: 155.01px;
-    left: calc(50% - 222.73px/2 - 0.15px);
+    left: calc(50% - 222.73px / 2 - 0.15px);
     top: 1950.99px;
   }
 
   .brus {
     width: 222.73px;
     height: 155.01px;
-    left: calc(50% - 222.73px/2 + 241.34px);
+    left: calc(50% - 222.73px / 2 + 241.34px);
     top: 1950.99px;
   }
 
@@ -307,45 +307,45 @@
   }
 
   .par {
-    left: calc(50% - 164.71px/2 - 241.91px);
+    left: calc(50% - 164.71px / 2 - 241.91px);
     top: 1921.77px;
   }
 
   .cop {
-    left: calc(50% - 164.31px/2 - 0.6px);
+    left: calc(50% - 164.31px / 2 - 0.6px);
     top: 1834.68px;
   }
 
   .lvi {
-    left: calc(50% - 164.31px/2 + 240.92px);
+    left: calc(50% - 164.31px / 2 + 240.92px);
     top: 1834.68px;
   }
 
   .bar {
-    left: calc(50% - 164.31px/2 - 0.6px);
+    left: calc(50% - 164.31px / 2 - 0.6px);
     top: 2007.96px;
   }
 
   .bru {
-    left: calc(50% - 164.31px/2 + 240.92px);
+    left: calc(50% - 164.31px / 2 + 240.92px);
     top: 2007.06px;
   }
 
   .sub {
-    left: calc(50% - 610px/2);
+    left: calc(50% - 610px / 2);
     top: 2229px;
   }
 
   .email {
     top: 2476px;
-    left: calc(50% - 323px/2 - 7.5px);
+    left: calc(50% - 323px / 2 - 7.5px);
   }
 
   .sub-but {
     top: 2543px;
     width: 189px;
     height: 52px;
-    left: calc(50% - 201.77px/2 - 0.12px);
+    left: calc(50% - 201.77px / 2 - 0.12px);
   }
 
   .footer-rectangle {
@@ -364,11 +364,11 @@
   }
 
   .list1 {
-    left: calc(50% - 250px/2 - 240px);
+    left: calc(50% - 250px / 2 - 240px);
   }
 
   .list2 {
-    left: calc(50% - 209px/2 - 25.5px);
+    left: calc(50% - 209px / 2 - 25.5px);
   }
 
   .payments {

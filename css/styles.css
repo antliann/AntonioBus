@@ -640,11 +640,11 @@ input::-webkit-inner-spin-button {
 }
 
 .list1 {
-  left: calc(50% - 199px/2 - 374px);
+  left: calc(50% - 199px / 2 - 374px);
 }
 
 .list2 {
-  left: calc(50% - 199px/2 - 113px);
+  left: calc(50% - 199px / 2 - 113px);
 }
 
 ul {
