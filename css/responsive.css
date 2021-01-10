@@ -247,6 +247,8 @@
   }
 
   .europe-header {
+    width: 460px;
+    height: 36px;
     left: calc(50% - 460px/2 + 137px);
     top: 1311px;
   }
@@ -256,6 +258,95 @@
     top: 1357px;
   }
 
+  .routes {
+    top: 1650px;
+  }
+
+  .paris {
+    width: 222.73px;
+    height: 328.79px;
+    left: calc(50% - 222.73px/2 - 241.64px);
+    top: 1777.21px;
+  }
+
+  .quadro {
+    width: 222.73px;
+    height: 155.01px;
+  }
+
+  .copen {
+    left: calc(50% - 222.73px/2 - 0.15px);
+    top: 1777.21px;
+  }
+
+  .lviv {
+    width: 222.73px;
+    height: 155.01px;
+    left: calc(50% - 222.73px/2 + 241.34px);
+    top: 1777.21px;
+  }
+
+  .barca {
+    width: 222.73px;
+    height: 155.01px;
+    left: calc(50% - 222.73px/2 - 0.15px);
+    top: 1950.99px;
+  }
+
+  .brus {
+    width: 222.73px;
+    height: 155.01px;
+    left: calc(50% - 222.73px/2 + 241.34px);
+    top: 1950.99px;
+  }
+
+  .green-button {
+    width: 164.71px;
+    height: 40.4px;
+    cursor: pointer;
+  }
+
+  .par {
+    left: calc(50% - 164.71px/2 - 241.91px);
+    top: 1921.77px;
+  }
+
+  .cop {
+    left: calc(50% - 164.31px/2 - 0.6px);
+    top: 1834.68px;
+  }
+
+  .lvi {
+    left: calc(50% - 164.31px/2 + 240.92px);
+    top: 1834.68px;
+  }
+
+  .bar {
+    left: calc(50% - 164.31px/2 - 0.6px);
+    top: 2007.96px;
+  }
+
+  .bru {
+    left: calc(50% - 164.31px/2 + 240.92px);
+    top: 2007.06px;
+  }
+
+  .sub {
+    left: calc(50% - 610px/2);
+    top: 2229px;
+  }
+
+  .email {
+    top: 2476px;
+    left: calc(50% - 323px/2 - 7.5px);
+  }
+
+  .sub-but {
+    top: 2543px;
+    width: 189px;
+    height: 52px;
+    left: calc(50% - 201.77px/2 - 0.12px);
+  }
 
   .footer-rectangle {
     height: 100px;
@@ -263,10 +354,42 @@
   }
 
   .footer-caption {
-    left: calc(50% - 713px/2 - 8.5px);
+    left: 50px;
     top: 2963px;
     width: 713px;
   }
 
-}
+  .footer-h {
+    top: 2682px;
+  }
 
+  .list1 {
+    left: calc(50% - 250px/2 - 240px);
+  }
+
+  .list2 {
+    left: calc(50% - 209px/2 - 25.5px);
+  }
+
+  .payments {
+    width: 232px;
+    height: 60px;
+    left: calc(50% - 232px / 2 + 200.5px);
+    top: 2682px;
+  }
+
+  .social {
+    width: 320px;
+    height: 50px;
+    left: calc(50% - 320px / 2 + 247.5px);
+    top: 2785px;
+  }
+
+  .payments > a {
+    margin-right: 18px;
+  }
+
+  .social > a {
+    margin-right: 25px;
+  }
+}

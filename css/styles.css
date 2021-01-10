@@ -493,41 +493,30 @@ input::-webkit-inner-spin-button {
   height: 366.19px;
   left: calc(50% - 248.07px / 2 - 250.47px);
   top: 1629px;
-  border-radius: 10px;
+}
+
+.quadro {
+  position: absolute;
+  width: 248.07px;
+  height: 172.65px;
 }
 
 .copen {
-  position: absolute;
-  width: 248.07px;
-  height: 172.65px;
   left: calc(50% - 248.07px / 2 + 18.5px);
   top: 1629px;
-  border-radius: 10px;
 }
 
 .lviv {
-  position: absolute;
-  width: 248.07px;
-  height: 172.65px;
   left: calc(50% - 248.07px / 2 + 287.47px);
   top: 1629px;
-  border-radius: 10px;
 }
 
 .barca {
-  position: absolute;
-  width: 248.07px;
-  height: 172.65px;
   left: calc(50% - 248.07px / 2 + 18.5px);
   top: 1822.55px;
-
-  border-radius: 10px;
 }
 
 .brus {
-  position: absolute;
-  width: 248.07px;
-  height: 172.65px;
   left: calc(50% - 248.07px / 2 + 287.47px);
   top: 1822.55px;
 
@@ -587,7 +576,7 @@ input::-webkit-inner-spin-button {
   width: 610px;
   height: 388px;
   left: calc(50% - 610px / 2 - 16.5px);
-  top: 2229px;
+  top: 2115px;
 
   filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
 }
@@ -597,7 +586,7 @@ input::-webkit-inner-spin-button {
   width: 323px;
   height: 48px;
   left: calc(50% - 323px / 2 - 17px);
-  top: 2476px;
+  top: 2362px;
   background: #EEEEEE;
   border-radius: 7px;
   border: solid 0;
@@ -621,7 +610,7 @@ input::-webkit-inner-spin-button {
 
 .sub-but {
   left: calc(50% - 189px / 2 - 17px);
-  top: 2543px;
+  top: 2429px;
   width: 189px;
   height: 52px;
   border-radius: 26px;
@@ -648,6 +637,14 @@ input::-webkit-inner-spin-button {
   line-height: 33px;
 
   color: #343434;
+}
+
+.list1 {
+  left: calc(50% - 199px/2 - 374px);
+}
+
+.list2 {
+  left: calc(50% - 199px/2 - 113px);
 }
 
 ul {
