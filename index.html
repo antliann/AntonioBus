@@ -30,8 +30,13 @@
     <ellipse cx="760.5" cy="149" rx="967.5" ry="149" fill="#E8E8E8"/>
   </svg>
   <svg class="ell-2" width="1519" height="242" viewBox="0 0 1519 242" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <ellipse cx="755.5" cy="121" rx="915.5" ry="121" transform="rotate(-180 755.5 121)" fill="#E8E8E8"/>
+    <ellipse cx="755.5" cy="121" rx="915.5" ry="121" fill="#E8E8E8"/>
   </svg>
+
+  <svg class="ell-3-tab" width="834" height="142" viewBox="0 0 834 142" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="417" cy="71" rx="417" ry="71" fill="#E8E8E8"/>
+  </svg>
+
   <div class="back-1"></div>
   <div class="back-2"></div>
 </div>
@@ -84,6 +89,7 @@
       </svg>
     </div>
   </a>
+
 </header>
 
 <div class="bus-photo"></div>
@@ -230,7 +236,6 @@
       </filter>
     </defs>
   </svg>
-  <div id="desktop4"></div>
 
   <a href="pages/search">
     <img id="desktop5" class="search-button" src="img/Poisk.svg"/>
@@ -363,7 +368,6 @@
   </p>
 </div>
 
-
 <div class="routes">
   <h3 class="rou-h">Лучшие направления уже ждут тебя!</h3>
 </div>
@@ -465,27 +469,28 @@
 
     if (window.matchMedia('screen and (min-width: 1215px)').matches) {
       for (let i = 1; i < 10; i++) {
-        document.getElementById('desktop' + i).style.display = "unset";
-        document.getElementById('tablet' + i).style.display = "none";
-        //document.getElementById('phone' + i).style.display = "none"
+
+        if (document.getElementById('desktop' + i)) document.getElementById('desktop' + i).style.display = "unset";
+        if (document.getElementById('tablet' + i)) document.getElementById('tablet' + i).style.display = "none";
+        if (document.getElementById('phone' + i)) document.getElementById('phone' + i).style.display = "none"
       }
     }
 
     if (window.matchMedia('screen and (min-width: 834px) and (max-width: 1214px)').matches) {
       for (let j = 1; j < 10; j++) {
-        document.getElementById('desktop' + j).style.display = "none";
-        document.getElementById('tablet' + j).style.display = "unset";
-        //document.getElementById('phone' + j).style.display = "none";
+        if (document.getElementById('desktop' + j)) document.getElementById('desktop' + j).style.display = "none";
+        if (document.getElementById('tablet' + j)) document.getElementById('tablet' + j).style.display = "unset";
+        if (document.getElementById('phone' + j)) document.getElementById('phone' + j).style.display = "none";
       }
     }
 
-    /*if (window.matchMedia('screen and (max-width: 833px)').matches) {
+    if (window.matchMedia('screen and (max-width: 833px)').matches) {
       for (let k = 1; k < 10; k++) {
-        document.getElementById('desktop' + k).style.display = "none";
-        document.getElementById('tablet' + k).style.display = "none";
-        //document.getElementById('phone' + k).style.display = "unset";
+        if (document.getElementById('desktop' + k)) document.getElementById('desktop' + k).style.display = "none";
+        if (document.getElementById('tablet' + k)) document.getElementById('tablet' + k).style.display = "none";
+        if (document.getElementById('phone' + k)) document.getElementById('phone' + k).style.display = "unset";
       }
-    }*/
+    }
   }
 
   window.addEventListener('resize', function (event) {

@@ -8,8 +8,61 @@
 
  */
 
+@media screen and (min-width: 1214px) {
+
+  .brus:hover ~ .bru, .bru:hover,
+  .paris:hover ~ .par, .par:hover,
+  .lviv:hover ~ .lvi, .lvi:hover,
+  .copen:hover ~ .cop, .cop:hover,
+  .barca:hover ~ .bar, .bar:hover {
+    transition: 0.2s;
+    transform: scale(1.05);
+    background: rgba(0, 220, 0, 1);
+  }
+
+  .sub-but:hover {
+    transition: 0.1s;
+    transform: scale(1.03);
+  }
+
+  img, .green-button {
+    cursor: default;
+  }
+
+  .sub-but, .search-button {
+    cursor: pointer;
+  }
+
+}
+
 
 @media screen and (min-width: 834px) and (max-width: 1214px) {
+
+  body {
+    height: 3027px;
+  }
+
+  .back-1 {
+    top: 388.89px;
+    height: 893.11px;
+  }
+
+  .back-2 {
+    top: 1568px;
+    height: 931px;
+  }
+
+  .ell-1, .ell-2 {
+    display: none;
+  }
+
+  .ell-3-tab {
+    display: unset;
+    position: absolute;
+    width: 100%;
+    height: 142px;
+    top: 2403px;
+  }
 
   .logo {
     left: 19px;
@@ -103,6 +156,116 @@
 
     font-size: 22px;
     line-height: 23px;
+  }
+
+  .rectangles {
+    display: flex;
+    flex-direction: column;
+
+    width: 752px;
+    height: 541px;
+    left: calc(50% - 752px/2 + 4px);
+    top: 631px;
+  }
+
+  .rect {
+    width: 530px;
+    height: 124px;
+    margin-bottom: 15px;
+    top: 0;
+  }
+
+  .rect-1 {
+    position: absolute;
+    width: 72.92px;
+    height: 70px;
+    left: 136px;
+    top: 23px;
+  }
+
+  .rect-2 {
+    position: absolute;
+    width: 72.41px;
+    height: 70px;
+    left: 139px;
+    top: 166px;
+  }
+
+  .rect-3 {
+    position: absolute;
+    width: 67.5px;
+    height: 45px;
+    left: 143px;
+    top: 317px;
+  }
+
+  .rect-4 {
+    position: absolute;
+    width: 67.92px;
+    height: 60px;
+    left: 142px;
+    top: 449px;
+  }
+
+  .head {
+    top: 24px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    left: 171px;
+    text-align: unset;
+  }
+
+  .text {
+    font-size: 19px;
+    line-height: 22px;
+    left: 264px;
+    text-align: unset;
+    width: 300px;
+    height: 45px;
+  }
+
+  .text1 {
+    top: 60px;
+  }
+
+  .text2 {
+    top: 200px;
+  }
+
+  .text3 {
+    top: 337px;
+  }
+
+  .text4 {
+    top: 476px;
+  }
+
+  .europe {
+    left: calc(50% - 303px/2 - 238.5px);
+    top: 1235px;
+  }
+
+  .europe-header {
+    left: calc(50% - 460px/2 + 137px);
+    top: 1311px;
+  }
+
+  .eu-p {
+    left: calc(50% - 456px/2 + 139px);
+    top: 1357px;
+  }
+
+
+  .footer-rectangle {
+    height: 100px;
+    top: 2927px;
+  }
+
+  .footer-caption {
+    left: calc(50% - 713px/2 - 8.5px);
+    top: 2963px;
+    width: 713px;
   }
 
 }

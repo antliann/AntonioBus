@@ -39,12 +39,6 @@ body {
   background: #00DC00;
 }
 
-.foot {
-  position: absolute;
-  left: calc(50% - 1964px / 2 + 221px);
-  top: 2851px;
-}
-
 .logo {
   position: absolute;
   width: 95px;
@@ -170,6 +164,10 @@ body {
   height: 242px;
   /*left: calc(50% - 1831px/2 + 1827px);*/
   top: 2213px;
+}
+
+.ell-3-tab {
+  display: none;
 }
 
 .footer-ell {
@@ -301,13 +299,12 @@ input::-webkit-inner-spin-button {
 }
 
 .rect {
-  position: static;
   width: 225px;
   height: 286px;
   top: 3.5px;
 
   background: #F7F7F7;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
   border-radius: 20px;
   flex: none;
 
@@ -585,22 +582,12 @@ input::-webkit-inner-spin-button {
   top: 1886px;
 }
 
-.brus:hover ~ .bru, .bru:hover,
-.paris:hover ~ .par, .par:hover,
-.lviv:hover ~ .lvi, .lvi:hover,
-.copen:hover ~ .cop, .cop:hover,
-.barca:hover ~ .bar, .bar:hover {
-  transition: 0.2s;
-  transform: scale(1.05);
-  background: rgba(0, 220, 0, 1);
-}
-
 .sub {
   position: absolute;
   width: 610px;
   height: 388px;
   left: calc(50% - 610px / 2 - 16.5px);
-  top: 2115px;
+  top: 2229px;
 
   filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
 }
@@ -610,7 +597,7 @@ input::-webkit-inner-spin-button {
   width: 323px;
   height: 48px;
   left: calc(50% - 323px / 2 - 17px);
-  top: 2362px;
+  top: 2476px;
   background: #EEEEEE;
   border-radius: 7px;
   border: solid 0;
@@ -634,15 +621,10 @@ input::-webkit-inner-spin-button {
 
 .sub-but {
   left: calc(50% - 189px / 2 - 17px);
-  top: 2429px;
+  top: 2543px;
   width: 189px;
   height: 52px;
   border-radius: 26px;
-}
-
-.sub-but:hover {
-  transition: 0.1s;
-  transform: scale(1.03);
 }
 
 .footer-h {
@@ -728,12 +710,4 @@ a {
 
 .social > a {
   margin-right: 40px;
-}
-
-img, .green-button {
-  cursor: default;
-}
-
-.sub-but, .search-button {
-  cursor: pointer;
 }
