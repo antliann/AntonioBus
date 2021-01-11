@@ -50,7 +50,7 @@ body {
 .navigation {
   display: flex;
   flex-direction: row;
-  padding: 0px;
+  padding: 0;
 
   position: absolute;
   width: 384px;
@@ -71,7 +71,7 @@ body {
   line-height: 30px;
   text-decoration: none;
 
-  color: #FFFFFF;
+  color: #ffffff;
 
   flex: none;
 
@@ -79,21 +79,21 @@ body {
 }
 
 .nav-1 {
-  width: 149px;
-  left: 0px;
+  /*width: 149px;*/
+  left: 0;
   order: 0;
   margin-right: 60px;
 }
 
 .nav-2 {
-  width: 70px;
+  /*width: 70px;*/
   left: 209px;
   order: 1;
   margin-right: 60px;
 }
 
 .nav-3 {
-  width: 45px;
+  /*width: 45px;*/
   left: 339px;
   order: 2;
 }
@@ -289,7 +289,7 @@ input::-webkit-inner-spin-button {
 .rectangles {
   display: flex;
   flex-direction: row;
-  padding: 0px;
+  padding: 0;
 
   position: absolute;
   width: 1011px;
