@@ -53,15 +53,15 @@ body {
   padding: 0;
 
   position: absolute;
-  width: 384px;
-  height: 30px;
+  /*width: 384px;
+  height: 30px;*/
   left: 281px;
   top: 22px;
 }
 
 .nav-item {
   position: static;
-  height: 30px;
+  /*height: 30px;*/
   top: 0;
 
   font-family: Dimbo, sans-serif;
@@ -74,27 +74,26 @@ body {
   color: #ffffff;
 
   flex: none;
-
   align-self: center;
 }
 
 .nav-1 {
   /*width: 149px;*/
-  left: 0;
+  /*left: 0;*/
   order: 0;
   margin-right: 60px;
 }
 
 .nav-2 {
   /*width: 70px;*/
-  left: 209px;
+  /*left: 209px;*/
   order: 1;
   margin-right: 60px;
 }
 
 .nav-3 {
   /*width: 45px;*/
-  left: 339px;
+  /*left: 339px;*/
   order: 2;
 }
 
