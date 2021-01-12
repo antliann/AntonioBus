@@ -472,14 +472,14 @@
 
     if (window.matchMedia('screen and (min-width: 1215px)').matches) {
       for (let i = 1; i < 10; i++) {
-
         if (document.getElementById('desktop' + i)) document.getElementById('desktop' + i).style.display = "unset";
         if (document.getElementById('tablet' + i)) document.getElementById('tablet' + i).style.display = "none";
         if (document.getElementById('phone' + i)) document.getElementById('phone' + i).style.display = "none"
       }
     }
 
-    if (window.matchMedia('screen and (min-width: 834px) and (max-width: 1214px)').matches) {
+    if (window.matchMedia('screen and (min-width: 834px) and (max-width: 1214px), screen and ' +
+      '(max-width: 1214px) and (orientation: landscape)').matches) {
       for (let j = 1; j < 10; j++) {
         if (document.getElementById('desktop' + j)) document.getElementById('desktop' + j).style.display = "none";
         if (document.getElementById('tablet' + j)) document.getElementById('tablet' + j).style.display = "unset";
@@ -487,7 +487,7 @@
       }
     }
 
-    if (window.matchMedia('screen and (max-width: 833px)').matches) {
+    if (window.matchMedia('screen and (max-width: 833px) and (orientation: portrait)').matches) {
       for (let k = 1; k < 10; k++) {
         if (document.getElementById('desktop' + k)) document.getElementById('desktop' + k).style.display = "none";
         if (document.getElementById('tablet' + k)) document.getElementById('tablet' + k).style.display = "none";
@@ -501,8 +501,28 @@
   });
 
   document.getElementById("subscribe").addEventListener('click', function (event) {
-    document.getElementById("email-field").value = "";
+    let emailField = document.getElementById("email-field");
+    if (emailField.value !== "") {
+      emailField.style.transform = "scale(0.8)";
+      emailField.style.transition = "200ms";
+
+      setTimeout(
+        function () {
+          if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(emailField.value)) {
+            emailField.value = "";
+            emailField.placeholder = "Отлично! Проверь почту!";
+          } else {
+            emailField.style.color = "#FF0000";
+            emailField.addEventListener('click', function (event) {
+              emailField.style.color = "#343434";
+            })
+          }
+          emailField.style.transform = "scale(1.0)";
+        },
+        200);
+    }
   });
+
 
   recount();
 </script>
