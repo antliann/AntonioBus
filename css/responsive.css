@@ -1,15 +1,4 @@
-/*
-
-1215 +++
-
-834  -  1214
-
-0  -  833
-
- */
-
 @media screen and (min-width: 1214px) {
-
   .brus:hover ~ .bru, .bru:hover,
   .paris:hover ~ .par, .par:hover,
   .lviv:hover ~ .lvi, .lvi:hover,
@@ -32,12 +21,9 @@
   .sub-but, .search-button {
     cursor: pointer;
   }
-
 }
 
-
 @media screen and (min-width: 834px) and (max-width: 1214px), screen and (max-width: 833px) and (orientation: landscape) {
-
   body {
     height: 3027px;
   }
@@ -394,3 +380,6 @@
   }
 }
 
+@media screen and (max-width: 833px) and (orientation: portrait) {
+  
+}

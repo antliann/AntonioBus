@@ -13,9 +13,8 @@ function recount() {
   }
 
   if (window.matchMedia('screen and (min-width: 834px) and (max-width: 1214px), screen and (max-width: 833px) and (orientation: landscape)').matches) {
-    if (window.matchMedia('screen and (max-width: 860px) and (orientation: landscape)').matches) {
+    if (window.matchMedia('(max-width: 860px) and (orientation: landscape)').matches)
       document.body.style.zoom = (window.innerWidth / 880).toString();
-    }
     else document.body.style.zoom = "1";
     for (let j = 1; j < 10; j++) {
       if (document.getElementById('desktop' + j))
@@ -28,11 +27,7 @@ function recount() {
   }
 
   if (window.matchMedia('screen and (max-width: 833px) and (orientation: portrait)').matches) {
-    if (window.matchMedia('(orientation: portrait)')) {
-
-      /* ЖОСКИЙ КОД КОТОРЫЙ ЗУМИТ */
-
-    }
+    document.body.style.zoom = (window.innerWidth / 375).toString();
     for (let k = 1; k < 10; k++) {
       if (document.getElementById('desktop' + k))
         document.getElementById('desktop' + k).style.display = "none";
