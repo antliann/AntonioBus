@@ -36,7 +36,7 @@
 }
 
 
-@media screen and (min-width: 834px) and (max-width: 1214px), screen and (max-width: 1214px) and (orientation: landscape) {
+@media screen and (min-width: 834px) and (max-width: 1214px), screen and (max-width: 833px) and (orientation: landscape) {
 
   body {
     height: 3027px;
@@ -393,3 +393,4 @@
     margin-right: 25px;
   }
 }
+
