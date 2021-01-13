@@ -9,6 +9,11 @@
     background: rgba(0, 220, 0, 1);
   }
 
+  .tablet1, .slogans2, .search-bar2, .search-button2,
+  .phone-header, .slogans3 {
+    display: none;
+  }
+
   .sub-but:hover {
     transition: 0.1s;
     transform: scale(1.03);
@@ -23,7 +28,13 @@
   }
 }
 
-@media screen and (min-width: 834px) and (max-width: 1214px), screen and (max-width: 833px) and (orientation: landscape) {
+@media screen and (min-width: 500px) and (max-width: 1214px), screen and (max-width: 833px) and (orientation: landscape) {
+
+  .desktop1, .slogans, .search-bar, .search-button,
+  .phone-header, .slogans3 {
+    display: none;
+  }
+
   body {
     height: 3027px;
   }
@@ -380,7 +391,10 @@
   }
 }
 
-@media screen and (max-width: 833px) and (orientation: portrait) {
+@media screen and (max-width: 499px) and (orientation: portrait) {
+
+
+
   .body {
     width: 375px;
     height: 3172px;
@@ -441,5 +455,11 @@
     font-size: 20px;
     line-height: 30px;
     text-align: center;
+  }
+
+  .bus-photo,
+  .desktop1, .slogans, .search-bar, .search-button,
+  .tablet1, .slogans2, .search-bar2, .search-button2 {
+    display: none;
   }
 }
