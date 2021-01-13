@@ -381,5 +381,65 @@
 }
 
 @media screen and (max-width: 833px) and (orientation: portrait) {
-  
+  .body {
+    width: 375px;
+    height: 3172px;
+  }
+
+  .header-rectangle, .ell-1, .ell-2 {
+    display: none;
+  }
+
+  .phone-header {
+    position: absolute;
+    width: 375px;
+    height: 102px;
+    left: 0;
+    top: -7px;
+  }
+
+  .logo {
+    position: absolute;
+    width: 76px;
+    height: 77px;
+    left: 150px;
+    top: 2px;
+  }
+
+  /* ВРЕМЕННА ХУЙНЯ */
+  form {
+    display: none;
+  }
+
+  .slogans3 {
+    position: absolute;
+    width: 277px;
+    height: 404px;
+    left: 49px;
+    top: 107px;
+  }
+
+  .back-1 {
+    height: 906px;
+    top: 289px;
+  }
+
+  .back-2 {
+    height: 841px;
+    top: 1447px;
+  }
+
+  .footer-rectangle {
+    height: 92px;
+    top: 3080px;
+  }
+
+  .footer-caption {
+    left: 0;
+    top: 3096px;
+    width: 375px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
 }

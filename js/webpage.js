@@ -28,6 +28,7 @@ function recount() {
 
   if (window.matchMedia('screen and (max-width: 833px) and (orientation: portrait)').matches) {
     document.body.style.zoom = (window.innerWidth / 375).toString();
+    document.getElementById('bus-photo').style.display = "none";
     for (let k = 1; k < 10; k++) {
       if (document.getElementById('desktop' + k))
         document.getElementById('desktop' + k).style.display = "none";
@@ -42,7 +43,6 @@ function recount() {
 window.addEventListener('resize', function (event) {
   recount();
 });
-
 
 let emailField = document.getElementById("email-field");
 
