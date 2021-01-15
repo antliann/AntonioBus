@@ -406,7 +406,7 @@
 
   .phone-header {
     position: absolute;
-    width: 375px;
+    width: 369px;
     height: 102px;
     left: calc(50% - 375px/2);
     top: -7px;
@@ -416,7 +416,7 @@
     position: absolute;
     width: 76px;
     height: 77px;
-    left: calc(50% - 76px/2 + 0.5px);
+    left: calc(50% - 76px/2 - 2.5px);
     top: 3px;
   }
 
@@ -519,7 +519,7 @@
     flex-direction: column;
     width: 350px;
     height: 477px;
-    left: calc(50% - 330px/2 + 8.5px);
+    left: calc(50% - 330px/2 + 34px);
     top: 553px;
   }
 
@@ -534,15 +534,15 @@
     position: absolute;
     width: 62.51px;
     height: 60px;
-    left: 22.5px;
     top: 23.5px;
+    left: -4px;
   }
 
   .rect-2 {
     position: absolute;
     width: 62.07px;
     height: 63.02px;
-    left: 22px;
+    left: 0;
     top: 146px;
   }
 
@@ -550,7 +550,7 @@
     position: absolute;
     width: 60px;
     height: 40px;
-    left: 26.38px;
+    left: 0;
     top: 282px;
   }
 
@@ -558,7 +558,7 @@
     position: absolute;
     width: 58.87px;
     height: 52px;
-    left: 26.5px;
+    left: 0;
     top: 397px;
   }
 
@@ -573,9 +573,9 @@
 
   .text {
     text-align: unset;
-    width: 193px;
+    width: 190px;
     height: 45px;
-    left: 114px;
+    left: 90px;
     font-size: 13px;
     line-height: 19px;
   }
@@ -751,6 +751,8 @@
     top: 2267px;
     font-size: 23px;
     line-height: 27px;
+    padding-left: 14px;
+    padding-right: 14px;
   }
 
   .sub-but {
@@ -820,8 +822,24 @@
     max-width: 375px;
   }
 
+  .footer-caption {
+    width: 340px;
+    margin-left: 17px;
+  }
+
+  body {
+    width: 363px;
+  }
+
+  .back-1, .back-2, .footer-rectangle {
+    width: 363px;
+  }
+
+  .rectangles{
+    width: 300px;
+  }
+
   .navigation {
     display: none;
   }
-
 }
