@@ -1,4 +1,4 @@
-@media screen and (min-width: 1214px) {
+@media (min-width: 1214px) {
   .brus:hover ~ .bru, .bru:hover,
   .paris:hover ~ .par, .par:hover,
   .lviv:hover ~ .lvi, .lvi:hover,
@@ -29,7 +29,7 @@
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 1214px), screen and (max-width: 833px) and (orientation: landscape) {
+@media (min-width: 500px) and (max-width: 1214px), (max-width: 833px) and (orientation: landscape) {
 
   .desktop1, .slogans, .search-bar, .search-button,
   .phone-header, .slogans3, .search-bar-phone, .search-button3, .user-phone,
@@ -393,9 +393,13 @@
   }
 }
 
-@media screen and (max-width: 499px) and (orientation: portrait) {
+@media (max-width: 499px) and (orientation: portrait) {
 
-  .body {
+  #bus-photo {
+    display: none;
+  }
+
+  body {
     width: 375px;
     height: 3172px;
   }
@@ -561,6 +565,7 @@
   .head {
     text-align: unset;
     left: 122.5px;
+    width: 195px;
     top: 20px;
     font-size: 18px;
     line-height: 21px;
@@ -650,7 +655,7 @@
     position: absolute;
     width: 217px;
     height: 46px;
-    left: calc(50% - 217px/2 - 16px);
+    left: calc(50% - 217px/2 + 185px);
     top: -30px;
     font-size: 22px;
     line-height: 26px;
@@ -802,4 +807,21 @@
   .paris, .sub {
     display: none;
   }
+
+  .back-1, .back-2, .footer-rectangle {
+    left: 0;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  * {
+    max-width: 375px;
+  }
+
+  .navigation {
+    display: none;
+  }
+
 }
