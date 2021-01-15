@@ -11,7 +11,7 @@ function recount() {
   }
 
   if (window.matchMedia('screen and (max-width: 499px) and (orientation: portrait)').matches) {
-    document.body.style.zoom = (window.innerWidth / 375).toString();
+    document.body.style.zoom = ((window.innerWidth) / 375).toString();
   }
 }
 
