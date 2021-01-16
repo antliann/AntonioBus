@@ -1,16 +1,28 @@
+let isChangedFromNormal = { result: true };
+
 function recount() {
   if (window.matchMedia('(max-width: 499px) and (orientation: portrait)').matches) {
     document.body.style.zoom = ((window.innerWidth) / 375).toString();
   }
 
-  if (window.matchMedia('(min-width: 500px) and (max-width: 1214px), (max-width: 833px) and (orientation: landscape)').matches) {
+  if (window.matchMedia('(min-width: 500px) and (max-width: 1214px), ' +
+    '(max-width: 833px) and (orientation: landscape)').matches) {
     if (window.matchMedia('(max-width: 860px)').matches)
       document.body.style.zoom = (window.innerWidth / 880).toString();
-    else document.body.style.zoom = "1";
+    else {
+      document.body.style.zoom = "1";
+    }
   }
 
   if (window.matchMedia('(min-width: 1215px)').matches) {
     document.body.style.zoom = "1";
+    isChangedFromNormal.result = true;
+  }
+
+  if (isChangedFromNormal.result && navigator.userAgent.indexOf("Firefox") > -1 && window.matchMedia('(max-width: 860px)').matches) {
+      alert("При вашем разрешении экрана содержимое в браузере может отображаться некорректно, " +
+        "для лучшего опыта воспользуйтесь, пожалуйста, другим браузером");
+      isChangedFromNormal.result = false;
   }
 }
 
@@ -46,3 +58,8 @@ document.getElementById("subscribe").addEventListener('click', function () {
 });
 
 recount();
+
+if (navigator.userAgent.indexOf("Trident") > -1) {
+  alert("Ваш браузер слишком устарел, содержимое в нём может отображаться некорректно, " +
+    "для лучшего опыта воспользуйтесь, пожалуйста, другим браузером");
+}
