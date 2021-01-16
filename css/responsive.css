@@ -24,7 +24,7 @@
     cursor: default;
   }
 
-  .sub-but, .search-button {
+  .sub-but, .search-button, .logo {
     cursor: pointer;
   }
 }
@@ -775,6 +775,7 @@
     top: 2332px;
     font-size: 23px;
     line-height: 27px;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .footer-h {
@@ -855,4 +856,5 @@
   .navigation {
     display: none;
   }
+
 }
