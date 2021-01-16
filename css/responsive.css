@@ -391,6 +391,12 @@
   .social > a {
     margin-right: 25px;
   }
+
+  .header-rectangle {
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
 }
 
 @media (max-width: 499px) and (orientation: portrait) {
@@ -405,6 +411,7 @@
 
   .header-rectangle {
     top: 0;
+    left: 0;
     height: 65px;
     width: 100%;
   }
@@ -540,7 +547,7 @@
     width: 62.51px;
     height: 60px;
     top: 23.5px;
-    left: -4px;
+    left: -7px;
   }
 
   .rect-2 {
@@ -752,7 +759,7 @@
   .email {
     width: 243px;
     height: 42px;
-    left: calc(50% - 282px/2);
+    left: calc(50% - 282px/2 + 6px);
     top: 2267px;
     font-size: 23px;
     line-height: 27px;

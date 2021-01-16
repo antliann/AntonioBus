@@ -15,13 +15,13 @@ function recount() {
   }
 }
 
-window.addEventListener('resize', function (event) {
+window.addEventListener('resize', function () {
   recount();
 });
 
 let emailField = document.getElementById("email-field");
 
-document.getElementById("subscribe").addEventListener('click', function (event) {
+document.getElementById("subscribe").addEventListener('click', function () {
   if (emailField.value !== "") {
     emailField.style.transform = "scale(0.8)";
     emailField.style.transition = "200ms";
@@ -32,7 +32,7 @@ document.getElementById("subscribe").addEventListener('click', function (event) 
           emailField.placeholder = "Отлично! Проверь почту!";
         } else {
           emailField.style.color = "#ff0000";
-          emailField.addEventListener('click', function (event) {
+          emailField.addEventListener('click', function () {
             emailField.style.color = "#343434";
           })
         }
