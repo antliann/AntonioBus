@@ -20,11 +20,7 @@
     transform: scale(1.03);
   }
 
-  img, .green-button {
-    cursor: default;
-  }
-
-  .sub-but, .search-button, .logo {
+  .green-button {
     cursor: pointer;
   }
 }

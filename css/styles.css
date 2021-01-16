@@ -13,8 +13,6 @@ html {
   outline: none;
 }
 
-img { pointer-events: none; }
-
 body {
   background-color: #F6F6F6;
   height: 2966px;
@@ -466,7 +464,6 @@ input[type=number] {
 ::-webkit-calendar-picker-indicator {
     opacity: 0;
 }
-
 
 .paris {
   position: absolute;
