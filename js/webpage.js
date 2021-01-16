@@ -19,6 +19,10 @@ window.addEventListener('resize', function () {
   recount();
 });
 
+window.addEventListener('orientationchange', function () {
+  recount();
+});
+
 let emailField = document.getElementById("email-field");
 
 document.getElementById("subscribe").addEventListener('click', function () {
