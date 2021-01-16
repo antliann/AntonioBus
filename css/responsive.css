@@ -394,7 +394,6 @@
 }
 
 @media (max-width: 499px) and (orientation: portrait) {
-
   #bus-photo {
     display: none;
   }
@@ -402,6 +401,12 @@
   body {
     width: 375px;
     height: 3172px;
+  }
+
+  .header-rectangle {
+    top: 0;
+    height: 65px;
+    width: 100%;
   }
 
   .phone-header {
@@ -803,7 +808,7 @@
     height: 40px;
   }
 
-  .bus-photo, .header-rectangle, .ell-1, .ell-2,
+  .bus-photo, .ell-1, .ell-2,
   .desktop1, .slogans, .search-bar, .search-button,
   .tablet1, .slogans2, .search-bar2, .search-button2, .login-user,
   .paris, .sub {
@@ -828,11 +833,11 @@
   }
 
   body {
-    width: 363px;
+    width: 100%;
   }
 
   .back-1, .back-2, .footer-rectangle {
-    width: 363px;
+    width: 100%;
   }
 
   .rectangles{
