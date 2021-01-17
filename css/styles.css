@@ -1,7 +1,8 @@
 @font-face {
-  font-family: Dimbo;
+  font-family: Dimbo, sans-serif;
   src: url(../css/Dimbo.ttf);
 }
+
 
 html {
   width: 100%;
@@ -639,7 +640,7 @@ li * {
 
 a {
   text-decoration: none;
-  color: unset;
+  color: #343434;
 }
 
 .footer-caption {
