@@ -872,7 +872,6 @@
   div[id*="menu-bar-"] {
     width: 32px;
     height: 5px;
-    left: calc(50% - 32px/2 - 150px);
     background: #FFFFFF;
     border-radius: 4px;
     transition: 150ms;
