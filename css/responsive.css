@@ -11,7 +11,7 @@
 
   .tablet1, .slogans2, .search-bar2, .search-button2,
   .phone-header, .slogans3, .search-bar-phone, .search-button3, .user-phone,
-  div[id*="menu-bar-"], .paris-phone, .sub-ph {
+  #phone-menu, .paris-phone, .sub-ph {
     display: none;
   }
 
@@ -29,7 +29,7 @@
 
   .desktop1, .slogans, .search-bar, .search-button,
   .phone-header, .slogans3, .search-bar-phone, .search-button3, .user-phone,
-  div[id*="menu-bar-"], .paris-phone, .sub-ph {
+  #phone-menu, .paris-phone, .sub-ph {
     display: none;
   }
 
@@ -397,10 +397,6 @@
 }
 
 @media (max-width: 499px) and (orientation: portrait) {
-  #bus-photo {
-    display: none;
-  }
-
   body {
     width: 375px;
     height: 3172px;
@@ -630,28 +626,6 @@
     line-height: 20px;
   }
 
-  div[id*="menu-bar-"] {
-    position: absolute;
-    width: 32px;
-    height: 5px;
-    left: calc(50% - 32px/2 - 150px);
-    background: #FFFFFF;
-    border-radius: 4px;
-    transition: 0.2s;
-  }
-
-  div[id="menu-bar-1"] {
-    top: 20px;
-  }
-
-  div[id="menu-bar-2"] {
-    top: 30px;
-  }
-
-  div[id="menu-bar-3"] {
-    top: 40px;
-  }
-
   .user-phone {
     position: absolute;
     width: 32.96px;
@@ -853,4 +827,65 @@
     display: none;
   }
 
+  #menu-backgr {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    top: 0;
+    background-color: #00DC00;
+    transition: 300ms;
+    padding-top: 120px;
+  }
+
+  .nav-item {
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0 0 50px 0;
+    padding: 0;
+  }
+
+  .nav-1 {
+    order: 1;
+  }
+
+  .nav-2 {
+    order: 2;
+  }
+
+  .nav-3 {
+    order: 3;
+  }
+
+
+  #hamburger-button {
+    position: absolute;
+    width: 32px;
+    height: 25px;
+    left: calc(50% - 32px/2 - 150px);
+    top: 20px;
+    cursor: pointer;
+  }
+
+  div[id*="menu-bar-"] {
+    width: 32px;
+    height: 5px;
+    left: calc(50% - 32px/2 - 150px);
+    background: #FFFFFF;
+    border-radius: 4px;
+    transition: 150ms;
+  }
+
+  #menu-bar-1 {
+    margin-bottom: 5px;
+  }
+
+  #menu-bar-2  {
+    margin-bottom: 5px;
+  }
+
+  #menu-bar-3  {
+  }
 }

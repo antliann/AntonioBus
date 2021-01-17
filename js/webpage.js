@@ -1,6 +1,7 @@
 let conditions = {
   isChangedFromNormal: true,
-  firefoxBrowser: (navigator.userAgent.indexOf("Firefox") > -1)
+  firefoxBrowser: (navigator.userAgent.indexOf("Firefox") > -1),
+  menuIsOpenedPhone: false
 };
 
 function recount() {
@@ -39,6 +40,14 @@ window.addEventListener('resize', function () {
 window.addEventListener('orientationchange', function () {
   recount();
 });
+
+document.getElementById('hamburger-button').addEventListener('click', function () {
+  if (conditions.menuIsOpenedPhone)
+    document.getElementById('menu-backgr').style.left = "-100%";
+  else
+    document.getElementById('menu-backgr').style.left = "0";
+  conditions.menuIsOpenedPhone = !(conditions.menuIsOpenedPhone);
+})
 
 let emailField = document.getElementById("email-field");
 document.getElementById("subscribe").addEventListener('click', function () {

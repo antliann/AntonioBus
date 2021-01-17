@@ -46,6 +46,10 @@ body {
   background: #00DC00;
 }
 
+#menu-back {
+  display: none;
+}
+
 .logo {
   position: absolute;
   width: 95px;
@@ -58,7 +62,6 @@ body {
   display: flex;
   flex-direction: row;
   padding: 0;
-
   position: absolute;
   left: 281px;
   top: 22px;
@@ -67,7 +70,6 @@ body {
 .nav-item {
   position: static;
   top: 0;
-
   font-family: Dimbo, sans-serif;
   font-style: normal;
   font-weight: normal;
