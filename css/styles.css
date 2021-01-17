@@ -262,7 +262,7 @@ input::-webkit-calendar-picker-indicator {
 }
 
 input[type=number] {
-  -moz-appearance:textfield;
+  -moz-appearance: textfield;
 }
 
 .chel {
@@ -465,7 +465,7 @@ input[type=number] {
 
 
 ::-webkit-calendar-picker-indicator {
-    opacity: 0;
+  opacity: 0;
 }
 
 .paris {

@@ -75,11 +75,10 @@ function cross() {
 
 document.getElementById('hamburger-button').addEventListener('click', function () {
   middleState();
-  if (conditions.menuIsOpenedPhone){
+  if (conditions.menuIsOpenedPhone) {
     document.getElementById('menu-backgr').style.left = "-100%";
     hamburger();
-  }
-  else {
+  } else {
     document.getElementById('menu-backgr').style.left = "0";
     cross();
   }

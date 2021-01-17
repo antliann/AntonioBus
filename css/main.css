@@ -3,14 +3,17 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
+
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
+
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
 }
+
 hr {
   display: block;
   height: 1px;
@@ -19,6 +22,7 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
+
 audio,
 canvas,
 iframe,

@@ -413,7 +413,7 @@
     position: absolute;
     width: 369px;
     height: 102px;
-    left: calc(50% - 375px/2);
+    left: calc(50% - 375px / 2);
     top: -7px;
   }
 
@@ -421,7 +421,7 @@
     position: absolute;
     width: 76px;
     height: 77px;
-    left: calc(50% - 76px/2 - 2.5px);
+    left: calc(50% - 76px / 2 - 2.5px);
     top: 3px;
   }
 
@@ -429,7 +429,7 @@
     position: absolute;
     width: 277px;
     height: 404px;
-    left: calc(50% - 277px/2);
+    left: calc(50% - 277px / 2);
     top: 107px;
   }
 
@@ -449,7 +449,7 @@
   }
 
   .footer-caption {
-    left: calc(50% - 375px/2);
+    left: calc(50% - 375px / 2);
     top: 3096px;
     width: 375px;
     font-size: 20px;
@@ -461,7 +461,7 @@
     position: absolute;
     width: 338.2px;
     height: 226px;
-    left: calc(50% - 338.2px/2 - 0.4px);
+    left: calc(50% - 338.2px / 2 - 0.4px);
     top: 196px;
     filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
   }
@@ -470,7 +470,7 @@
     position: absolute;
     width: 338.2px;
     height: 57.89px;
-    left: calc(50% - 338.2px/2 - 0.4px);
+    left: calc(50% - 338.2px / 2 - 0.4px);
     top: 364.07px;
   }
 
@@ -482,20 +482,20 @@
 
   .city-1 {
     width: 257px;
-    left: calc(50% - 257px/2 - 19.6px);
+    left: calc(50% - 257px / 2 - 19.6px);
     top: 215px;
   }
 
   .city-2 {
     width: 295px;
-    left: calc(50% - 295px/2 - 0.6px);
+    left: calc(50% - 295px / 2 - 0.6px);
     top: 271px;
   }
 
   .calendar {
     width: 146px;
     height: 19px;
-    left: calc(50% - 133px/2 - 83px);
+    left: calc(50% - 133px / 2 - 83px);
     top: 330px;
     font-size: 17px;
     line-height: 20px;
@@ -504,7 +504,7 @@
   .people {
     width: 10px;
     height: 19px;
-    left: calc(50% - 107px/2 + 67px);
+    left: calc(50% - 107px / 2 + 67px);
     top: 329px;
     font-size: 17px;
     line-height: 20px;
@@ -513,7 +513,7 @@
   .chel {
     width: 107px;
     height: 19px;
-    left: calc(50% - 107px/2 + 84px);
+    left: calc(50% - 107px / 2 + 84px);
     top: 313px;
     font-size: 17px;
     line-height: 20px;
@@ -524,7 +524,7 @@
     flex-direction: column;
     width: 350px;
     height: 477px;
-    left: calc(50% - 330px/2 + 34px);
+    left: calc(50% - 330px / 2 + 34px);
     top: 553px;
   }
 
@@ -604,14 +604,14 @@
   .europe {
     width: 151px;
     height: 185px;
-    left: calc(50% - 151px/2 + 6px);
+    left: calc(50% - 151px / 2 + 6px);
     top: 1070px;
   }
 
   .europe-header {
     width: 202px;
     height: 51px;
-    left: calc(50% - 202px/2 + 0.5px);
+    left: calc(50% - 202px / 2 + 0.5px);
     top: 1253px;
     font-size: 22px;
     line-height: 25px;
@@ -620,7 +620,7 @@
   .eu-p {
     width: 329px;
     height: 162px;
-    left: calc(50% - 329px/2);
+    left: calc(50% - 329px / 2);
     top: 1290px;
     font-size: 16px;
     line-height: 20px;
@@ -630,7 +630,7 @@
     position: absolute;
     width: 32.96px;
     height: 32.96px;
-    left: calc(50% - 32.96px/2 + 151.98px);
+    left: calc(50% - 32.96px / 2 + 151.98px);
     top: 17px;
   }
 
@@ -638,7 +638,7 @@
     position: absolute;
     width: 217px;
     height: 46px;
-    left: calc(50% - 217px/2 + 185px);
+    left: calc(50% - 217px / 2 + 185px);
     top: -30px;
     font-size: 22px;
     line-height: 26px;
@@ -648,7 +648,7 @@
     position: absolute;
     width: 344px;
     height: 154px;
-    left: calc(50% - 344px/2 + 0.5px);
+    left: calc(50% - 344px / 2 + 0.5px);
     top: 1596px;
     border-radius: 15px;
   }
@@ -660,22 +660,22 @@
   }
 
   .copen {
-    left: calc(50% - 164.77px/2 - 89.11px);
+    left: calc(50% - 164.77px / 2 - 89.11px);
     top: 1765px;
   }
 
   .lviv {
-    left: calc(50% - 164.77px/2 + 90.11px);
+    left: calc(50% - 164.77px / 2 + 90.11px);
     top: 1765px;
   }
 
   .barca {
-    left: calc(50% - 164.77px/2 - 89.11px);
+    left: calc(50% - 164.77px / 2 - 89.11px);
     top: 1893.16px;
   }
 
   .brus {
-    left: calc(50% - 164.77px/2 + 90.11px);
+    left: calc(50% - 164.77px / 2 + 90.11px);
     top: 1893.16px;
   }
 
@@ -690,27 +690,27 @@
   .par {
     width: 164.31px;
     height: 40.4px;
-    left: calc(50% - 164.31px/2 + 0.65px);
+    left: calc(50% - 164.31px / 2 + 0.65px);
     top: 1653px;
   }
 
   .bru {
-    left: calc(50% - 150px/2 + 90.47px);
+    left: calc(50% - 150px / 2 + 90.47px);
     top: 1930.74px;
   }
 
   .lvi {
-    left: calc(50% - 150px/2 + 90.47px);
+    left: calc(50% - 150px / 2 + 90.47px);
     top: 1803px;
   }
 
   .bar {
-    left: calc(50% - 150px/2 - 88.5px);
+    left: calc(50% - 150px / 2 - 88.5px);
     top: 1930.74px;
   }
 
   .cop {
-    left: calc(50% - 150px/2 - 88.5px);
+    left: calc(50% - 150px / 2 - 88.5px);
     top: 1803px;
   }
 
@@ -722,7 +722,7 @@
     position: absolute;
     width: 350px;
     height: 335px;
-    left: calc(50% - 350px/2 + 0.5px);
+    left: calc(50% - 350px / 2 + 0.5px);
     top: 2073px;
     filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
   }
@@ -730,7 +730,7 @@
   .email {
     width: 243px;
     height: 42px;
-    left: calc(50% - 282px/2 + 6px);
+    left: calc(50% - 282px / 2 + 6px);
     top: 2267px;
     font-size: 23px;
     line-height: 27px;
@@ -741,7 +741,7 @@
   .sub-but {
     width: 161px;
     height: 44px;
-    left: calc(50% - 161px/2 + 1.5px);
+    left: calc(50% - 161px / 2 + 1.5px);
     top: 2332px;
     font-size: 23px;
     line-height: 27px;
@@ -749,7 +749,7 @@
   }
 
   .footer-h {
-    left: calc(50% - 164.77px/2 - 21.11px);
+    left: calc(50% - 164.77px / 2 - 21.11px);
     top: 2468px;
     font-size: 18px;
     line-height: 33px;
@@ -764,7 +764,7 @@
   }
 
   .payments {
-    left: calc(50% - 202px/2 + 0.5px);
+    left: calc(50% - 202px / 2 + 0.5px);
     top: 2914px;
     height: 50px;
     width: 202px;
@@ -776,7 +776,7 @@
   }
 
   .social {
-    left: calc(50% - 280px/2 + 0.5px);
+    left: calc(50% - 280px / 2 + 0.5px);
     top: 3004px;
     height: 40px;
     width: 280px;
@@ -819,7 +819,7 @@
     width: 100%;
   }
 
-  .rectangles{
+  .rectangles {
     width: 300px;
   }
 
@@ -864,7 +864,7 @@
     position: absolute;
     width: 32px;
     height: 25px;
-    left: calc(50% - 32px/2 - 150px);
+    left: calc(50% - 32px / 2 - 150px);
     top: 20px;
     cursor: pointer;
   }
@@ -881,10 +881,10 @@
     margin-bottom: 5px;
   }
 
-  #menu-bar-2  {
+  #menu-bar-2 {
     margin-bottom: 5px;
   }
 
-  #menu-bar-3  {
+  #menu-bar-3 {
   }
 }
