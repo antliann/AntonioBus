@@ -867,6 +867,7 @@
     left: calc(50% - 32px / 2 - 150px);
     top: 20px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
   }
 
   div[id*="menu-bar-"] {

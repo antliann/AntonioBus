@@ -3,7 +3,6 @@
   src: url(../css/Dimbo.ttf);
 }
 
-
 html {
   width: 100%;
 }
@@ -508,7 +507,6 @@ input[type=number] {
   position: absolute;
   width: 183px;
   height: 45px;
-
   background: rgba(0, 220, 0, 0.9);
   border-radius: 23px;
   font-family: Dimbo, sans-serif;
@@ -516,14 +514,12 @@ input[type=number] {
   font-weight: normal;
   font-size: 25px;
   line-height: 30px;
-
   align-items: center;
   text-align: center;
   letter-spacing: 0.05em;
   outline: none;
   border: solid 0;
   color: #FFFFFF;
-
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -558,7 +554,6 @@ input[type=number] {
   height: 388px;
   left: calc(50% - 610px / 2 - 16.5px);
   top: 2115px;
-
   filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
 }
 
@@ -665,7 +660,6 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
-
   position: absolute;
   width: 232px;
   height: 60px;
@@ -677,7 +671,6 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
-
   position: absolute;
   width: 320px;
   height: 50px;
