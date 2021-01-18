@@ -73,14 +73,19 @@ function cross() {
   }, 140);
 }
 
+let scrollUp = function () {
+  window.scroll(0,0)
+}
 document.getElementById('hamburger-button').addEventListener('click', function () {
   middleState();
   if (conditions.menuIsOpenedPhone) {
     document.getElementById('menu-backgr').style.left = "-100%";
     hamburger();
+    removeEventListener('scroll', scrollUp);
   } else {
     document.getElementById('menu-backgr').style.left = "0";
     cross();
+    addEventListener('scroll', scrollUp);
   }
   conditions.menuIsOpenedPhone = !(conditions.menuIsOpenedPhone);
 })
