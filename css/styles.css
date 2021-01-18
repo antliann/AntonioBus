@@ -120,7 +120,6 @@ body {
   height: 422px;
   left: calc(50% - 1037px / 2 - 4px);
   top: 155px;
-
   background: url(../img/Bus.png);
 }
 
@@ -218,13 +217,11 @@ body {
   height: 20px;
   left: calc(50% - 115px / 2 - 33px);
   top: 377px;
-
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 20px;
-
   border: 0;
   background-color: transparent;
   outline: none;
@@ -270,7 +267,6 @@ input[type=number] {
   height: 20px;
   left: calc(50% - 115px / 2 + 175px);
   top: 358px;
-
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -287,7 +283,6 @@ input[type=number] {
   display: flex;
   flex-direction: row;
   padding: 0;
-
   position: absolute;
   width: 1011px;
   height: 293px;
@@ -299,12 +294,10 @@ input[type=number] {
   width: 225px;
   height: 286px;
   top: 3.5px;
-
   background: #F7F7F7;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
   border-radius: 20px;
   flex: none;
-
   align-self: center;
   margin-right: 37px;
 }
@@ -499,7 +492,6 @@ input[type=number] {
 .brus {
   left: calc(50% - 248.07px / 2 + 287.47px);
   top: 1822.55px;
-
   border-radius: 10px;
 }
 

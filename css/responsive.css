@@ -1,4 +1,4 @@
-@media (min-width: 1214px) {
+@media (min-width: 1215px) {
   .brus:hover ~ .bru, .bru:hover,
   .paris:hover ~ .par, .par:hover,
   .lviv:hover ~ .lvi, .lvi:hover,
@@ -25,7 +25,7 @@
   }
 }
 
-@media (min-width: 500px) and (max-width: 1214px), (max-width: 833px) and (orientation: landscape) {
+@media (min-width: 500px) and (max-width: 1214.99px) {
 
   .desktop1, .slogans, .search-bar, .search-button,
   .phone-header, .slogans3, .search-bar-phone, .search-button3, .user-phone,
@@ -74,9 +74,9 @@
   }
 
   .bus-photo {
-    width: 834px;
-    height: 339px;
-    left: calc(50% - 834px / 2 + 4px);
+    width: 826px;
+    height: 336px;
+    left: calc(50% - 826px/2 - 1px);
     top: 175px;
     background-size: contain;
   }
@@ -129,7 +129,6 @@
     height: 20px;
     left: calc(50% - 83px / 2 - 294px);
     top: 367px;
-
     font-size: 22px;
     line-height: 23px;
   }
@@ -139,7 +138,6 @@
     height: 20px;
     left: calc(50% - 83px / 2 - 62px);
     top: 367px;
-
     font-size: 22px;
     line-height: 23px;
   }
@@ -148,7 +146,6 @@
     height: 20px;
     left: calc(50% - 83px / 2 - 38px);
     top: 345px;
-
     font-size: 22px;
     line-height: 23px;
   }
@@ -156,7 +153,6 @@
   .rectangles {
     display: flex;
     flex-direction: column;
-
     width: 752px;
     height: 541px;
     left: calc(50% - 752px / 2 + 4px);
@@ -394,9 +390,14 @@
     width: 100%;
     height: 76px;
   }
+
+  .rect, .navigation, .footer-caption, .footer-h, .europe-and-text, .head, .routes,
+  .background {
+    display: unset;
+  }
 }
 
-@media (max-width: 499px) and (orientation: portrait) {
+@media (max-width: 499.99px) {
   body {
     width: 375px;
     height: 3172px;
@@ -837,7 +838,7 @@
     top: 0;
     background-color: #00DC00;
     transition: 300ms;
-    padding-top: 180px;
+    padding-top: 140px;
   }
 
   .nav-item {

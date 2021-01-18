@@ -5,13 +5,12 @@ let conditions = {
 };
 
 function recount() {
-  if (window.matchMedia('(max-width: 499px) and (orientation: portrait)').matches) {
+  if (window.matchMedia('(max-width: 499.99px)').matches) {
     document.body.style.zoom = ((window.innerWidth) / 375).toString();
   }
-  if (window.matchMedia('(min-width: 500px) and (max-width: 1214px), ' +
-    '(max-width: 833px) and (orientation: landscape)').matches) {
+  if (window.matchMedia('(min-width: 500px) and (max-width: 1214.99px)').matches) {
     if (window.matchMedia('(max-width: 860px)').matches)
-      document.body.style.zoom = (window.innerWidth / 880).toString();
+      document.body.style.zoom = (window.innerWidth / 860).toString();
     else
       document.body.style.zoom = "1";
   }
@@ -29,7 +28,7 @@ function recount() {
 recount();
 
 window.addEventListener('resize', function () {
-  recount();
+    recount();
 });
 
 window.addEventListener('orientationchange', function () {
