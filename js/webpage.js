@@ -11,15 +11,17 @@ function recount() {
   if (window.matchMedia('(min-width: 500px) and (max-width: 1214.99px)').matches) {
     if (window.matchMedia('(max-width: 860px)').matches)
       document.body.style.zoom = (window.innerWidth / 860).toString();
-    else
+    else {
       document.body.style.zoom = "1";
+      conditions.isChangedFromNormal = true;
+    }
   }
   if (window.matchMedia('(min-width: 1215px)').matches) {
     document.body.style.zoom = "1";
     conditions.isChangedFromNormal = true;
   }
   if (conditions.isChangedFromNormal && conditions.firefoxBrowser && window.matchMedia('(max-width: 860px)').matches) {
-    alert("При вашем разрешении экрана содержимое в браузере может отображаться некорректно, " +
+    alert("При вашем разрешении окна содержимое в браузере может отображаться некорректно, " +
       "для лучшего опыта воспользуйтесь, пожалуйста, другим браузером");
     conditions.isChangedFromNormal = false;
   }
