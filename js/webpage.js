@@ -64,11 +64,11 @@ function hamburger() {
 
 function cross() {
   setTimeout(function () {
-    bar1.style.transform = "translateY(10px) rotate(-45deg)";
+    bar1.style.transform = "translateY(10px) translateX(-6px) rotate(-45deg)";
     bar1.style.width = "40px";
     bar2.style.width = "40px";
     bar2.style.background = "transparent";
-    bar3.style.transform = "translateY(-10px) rotate(-135deg)";
+    bar3.style.transform = "translateY(-10px) translateX(-6px) rotate(-135deg)";
     bar3.style.width = "40px";
   }, 140);
 }
