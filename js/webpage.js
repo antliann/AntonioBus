@@ -5,6 +5,11 @@ let conditions = {
   currQuant: document.getElementById("people-quantity").value,
 };
 
+let cal = document.getElementById("calendar");
+cal.value = new Date().toISOString().split("T")[0];
+cal.min = cal.value;
+cal.max = cal.min.slice(0, 3) + (Number(cal.min[3]) + 1) + cal.min.slice(4, 10);
+
 function recount() {
   if (window.matchMedia('(max-width: 499.99px)').matches) {
     document.body.style.zoom = ((window.innerWidth) / 375).toString();
