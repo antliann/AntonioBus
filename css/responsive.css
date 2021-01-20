@@ -74,9 +74,9 @@
   }
 
   .bus-photo {
-    width: 826px;
-    height: 336px;
-    left: calc(50% - 826px/2 - 1px);
+    width: 800px;
+    height: 325.5px;
+    left: calc(50% - 800px/2);
     top: 175px;
     background-size: contain;
   }

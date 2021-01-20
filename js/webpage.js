@@ -2,6 +2,7 @@ let conditions = {
   isChangedFromNormal: true,
   menuIsOpenedPhone: false,
   firefoxBrowser: (navigator.userAgent.indexOf("Firefox") > -1),
+  currQuant: document.getElementById("people-quantity").value,
 };
 
 function recount() {
@@ -97,7 +98,7 @@ document.getElementById("subscribe").addEventListener('click', function () {
     emailField.style.transform = "scale(0.8)";
     emailField.style.transition = "200ms";
     setTimeout(function () {
-        if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-][a-zA-Z0-9-]+)*$/.test(emailField.value)) {
+        if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(emailField.value)) {
           emailField.value = "";
           emailField.placeholder = "Отлично! Проверь почту!";
         } else {
@@ -114,12 +115,16 @@ document.getElementById("subscribe").addEventListener('click', function () {
 
 let quantityStr = document.getElementById("people-quantity");
 quantityStr.addEventListener('input', function () {
-  if (quantityStr.value.length === 2)
-    quantityStr.value = quantityStr.value[1];
+  if (quantityStr.value.length === 2) {
+    if (quantityStr.value[0] === conditions.currQuant)
+      quantityStr.value = quantityStr.value[1];
+    else quantityStr.value = quantityStr.value[0];
+  }
   if (quantityStr.value === '' || quantityStr.value === '0')
     quantityStr.value = '1';
   if (quantityStr.value.length > 2 || quantityStr.value === '9')
     quantityStr.value = '8';
+  conditions.currQuant = quantityStr.value;
 })
 
 if (navigator.userAgent.indexOf("Trident") > -1) {

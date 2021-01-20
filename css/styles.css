@@ -64,6 +64,8 @@ body {
   position: absolute;
   left: 281px;
   top: 22px;
+  user-select: text;
+  -moz-user-select: text;
 }
 
 .nav-item {
@@ -77,7 +79,8 @@ body {
   text-decoration: none;
   color: #ffffff;
   outline: none;
-  user-select: auto;
+  user-select: text;
+  -moz-user-select: text;
   flex: none;
   align-self: center;
 }
@@ -195,7 +198,8 @@ body {
   font-size: 20px;
   line-height: 23px;
   color: #000000;
-  user-select: auto;
+  user-select: text;
+  -moz-user-select: text;
   border: 0;
   background-color: transparent;
   outline: none;
@@ -273,6 +277,7 @@ input[type=number] {
   font-size: 18px;
   line-height: 20px;
   user-select: none;
+  -moz-user-select: none;
   border: 0;
   background-color: transparent;
   outline: none;
@@ -343,7 +348,8 @@ input[type=number] {
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-  user-select: auto;
+  user-select: text;
+  -moz-user-select: text;
   color: #343434;
 }
 
@@ -355,7 +361,8 @@ input[type=number] {
   font-size: 17px;
   line-height: 20px;
   text-align: center;
-  user-select: auto;
+  user-select: text;
+  -moz-user-select: text;
   color: #5B5B5B;
 }
 
@@ -405,12 +412,13 @@ input[type=number] {
   font-weight: normal;
   font-size: 30px;
   line-height: 36px;
-  user-select: auto;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #282828;
+  user-select: text;
+  -moz-user-select: text;
 }
 
 .eu-p {
@@ -419,7 +427,6 @@ input[type=number] {
   height: 162px;
   left: calc(50% - 456px / 2 + 96.5px);
   top: 1200px;
-  user-select: auto;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -429,6 +436,8 @@ input[type=number] {
   align-items: center;
   text-align: center;
   color: #3E3E3E;
+  user-select: text;
+  -moz-user-select: text;
 }
 
 .routes {
@@ -453,6 +462,8 @@ input[type=number] {
   text-align: center;
   letter-spacing: 0.05em;
   color: #282828;
+  user-select: text;
+  -moz-user-select: text;
 }
 
 
@@ -547,6 +558,8 @@ input[type=number] {
   left: calc(50% - 610px / 2 - 16.5px);
   top: 2115px;
   filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  user-select: none;
+  -moz-user-select: none;
 }
 
 .email {
@@ -559,7 +572,8 @@ input[type=number] {
   border-radius: 7px;
   border: solid 0;
   outline: none;
-  user-select: auto;
+  user-select: text;
+  -moz-user-select: text;
   font-family: Dimbo, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -574,6 +588,7 @@ input[type=number] {
 .email::placeholder {
   color: #9E9E9E;
   user-select: none;
+  -moz-user-select: none;
 }
 
 .sub-but {
@@ -591,7 +606,8 @@ input[type=number] {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  user-select: auto;
+  user-select: text;
+  -moz-user-select: text;
   color: #000000;
 }
 
@@ -602,29 +618,34 @@ input[type=number] {
   font-weight: 500;
   font-size: 17px;
   line-height: 33px;
-  user-select: auto;
+  user-select: text;
+  -moz-user-select: text;
   color: #343434;
 }
 
 .list1 {
-  user-select: auto;
+  user-select: text;
+  -moz-user-select: text;
   left: calc(50% - 199px / 2 - 374px);
 }
 
 .list2 {
-  user-select: auto;
+  user-select: text;
+  -moz-user-select: text;
   left: calc(50% - 199px / 2 - 113px);
 }
 
 ul {
-  user-select: auto;
+  user-select: text;
+  -moz-user-select: text;
   list-style-type: none;
   margin-left: 0;
   padding-left: 0;
 }
 
 li * {
-  user-select: auto;
+  user-select: text;
+  -moz-user-select: text;
 }
 
 a {
@@ -644,7 +665,8 @@ a {
   font-size: 25px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  user-select: auto;
+  user-select: text;
+  -moz-user-select: text;
   color: #FFFFFF;
 }
 
